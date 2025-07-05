@@ -1,11 +1,8 @@
 package com.fawry.ecommerce.utils;
 
-import com.fawry.ecommerce.Cart;
 import com.fawry.ecommerce.Customer;
 import com.fawry.ecommerce.interfaces.Expirable;
 import com.fawry.ecommerce.models.Product;
-
-import java.util.LinkedHashMap;
 
 public class InputValidator {
 
