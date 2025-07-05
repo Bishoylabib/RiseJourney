@@ -2,7 +2,7 @@ package com.fawry.ecommerce;
 
 public class Customer {
     private final String name;
-    private int balance;
+    private double balance;
 
     public Customer(String name, int balance){
         this.name = name;
@@ -13,15 +13,15 @@ public class Customer {
         return this.name;
     }
 
-    public int getBalance(){
+    public double getBalance(){
         return this.balance;
     }
 
-    public void debit(int amount){
+    public void debit(double amount){
         this.balance -= amount;
     }
 
-    public void credit(int amount){
+    public void credit(double amount){
         this.balance += amount;
     }
 }
